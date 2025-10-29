@@ -34,8 +34,8 @@ String name;
             );
 
         // for(NameAndSalary n:nameAndSalaries){
-        //     System.out.println(n.name+" "+n.salary);
-        // }
+            System.out.println(n.name+" "+n.salary);
+        }
 
     }
     
