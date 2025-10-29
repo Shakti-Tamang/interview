@@ -40,7 +40,7 @@ public class SortByNameAddress {
 
         list.add(s3);
 
-        List<SortByNameAddress> sortedListd= list.stream().sorted(Comparator.comparing((SortByNameAddress s)-> s.name).thenComparing(s->s.address).thenComparing(s->s.age)).toList();
+        List<SortByNameAddress> sortedListd=list.stream().sorted(Comparator.comparing((SortByNameAddress s)->s.name).thenComparing(s->s.address)).toList();
    
         for(SortByNameAddress s: sortedListd){
 
