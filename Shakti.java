@@ -19,9 +19,9 @@ public class Shakti {
 
         List<Integer> res = shakti.getAll(lis);
 
-        int a[]={1,2,3,4};
+        // int a[]={1,2,3,4};
 
-        System.out.println(Arrays.toString(a));
+        // System.out.println(Arrays.toString(a));
         System.out.println(res.toString());
 
 
